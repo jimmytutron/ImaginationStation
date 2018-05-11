@@ -28,6 +28,7 @@
       };
 
       database.ref().push(trainData);
+      $(".form-control").val("");
   });
 
       // Firebase watcher + initial loader HINT: This code behaves similarly to .on("value")
