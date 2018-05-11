@@ -11,6 +11,7 @@
 
   var database = firebase.database();
 
+//grab information from form when user clicks submit
   $("#add-train").on("click", function(event){
 
       event.preventDefault();
@@ -20,6 +21,7 @@
       var firstTrainTime = $("#first-train-time").val().trim();
       var frequency = $("#frequency").val().trim();
 
+//push the data to Firebase
       var trainData = {
         trainName : trainName,
         destination : destination,
@@ -27,6 +29,7 @@
         frequency : frequency
       };
 
+//clear the form after hitting submit
       database.ref().push(trainData);
       $(".form-control").val("");
   });
