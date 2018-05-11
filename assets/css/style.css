@@ -1,0 +1,55 @@
+body {
+	background: url("https://source.unsplash.com/1920x1080/?trains") no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; 
+    background-size: cover;
+    height: 100%;
+}
+
+.container{
+	background-color: black;
+	border-radius: 25px;
+	opacity: 0.8;
+}
+
+.jumbotron {
+	background-color: black;
+	color: #fff;
+	opacity: 1;
+	font-family: 'Playfair Display SC', serif;
+}
+
+h1 {
+	letter-spacing: 3px;
+}
+
+
+.card {
+	background: none;
+	color: #fff;
+	font-family: 'Merriweather', serif;
+}
+
+.card-header {
+	font-size: 2em;
+}
+
+.form-control {
+	background: none;
+	border: none;
+	border-bottom: 2px solid white;
+}
+
+.form-control:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+	outline: none;
+	background: none;
+	border: none;
+}
+
+#add-train {
+	background-color: black;
+	border: solid 1px white;
+}
