@@ -17,6 +17,7 @@ A modern web browser is recommeded for using this app. Thanks to Bootstrap, this
 * [Bootstrap](https://getbootstrap.com/) - The web framework used
 * [Unsplash](https://source.unsplash.com/) - Random train backgrounds
 * [Moment.js](https://momentjs.com/) - Display and convert times
+* [Firebase](https://firebase.google.com/) - cloud database
 
 ## Authors :train:
 
